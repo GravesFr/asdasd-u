@@ -4595,7 +4595,7 @@ function library:init()
             };
             lock = 'custom';
             position = newUDim2(0,0,0,0);
-            refreshrate = 5;
+            refreshrate = 25;
         }
 
         function self.watermark:Update()
